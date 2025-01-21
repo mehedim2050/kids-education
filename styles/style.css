@@ -1,4 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 .navbar{
     display: flex;
     list-style: none;
@@ -18,7 +28,7 @@ line-height: 30px;
 letter-spacing: 0%;
 text-align: left;
 margin-top: 17px;
-margin-left: 11px;
+margin-left: -330px;
 
 }
 .navbar-li{
@@ -83,6 +93,11 @@ padding: 10px;
 border: none;
 margin-top: 6px;
 }
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column;
+    }
+}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -135,4 +150,370 @@ border-radius: 12px;
 #img{
     margin-right: 140px;
 }
+.curriculum-title1{
+    color: rgb(0, 0, 0);
+font-size: 46px;
+font-weight: 700;
+line-height: 57.5px;
+letter-spacing: 0%;
+text-align: center;
+margin: 80px 0px;
+gap: 80;
+padding: 60px 0px 60px 0px;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+.curriculum{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin-left: 140px;
+   margin-right: 140px;
+   margin-top: 170px;
+   background-image: url("../assets/bg.png");
+}
+.curriculum-img{
+    margin-top: 65px;
+    margin-left: 118px;
+}
+.curriculum-title{
+    color: rgb(32, 32, 32);
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center; 
+    margin-top: 44px;
+}
+.curriculum-description{
+    color: rgb(128, 128, 128);
+font-size: 15.09px;
+font-weight: 500;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 30px;
+}
+.curriculum-li1{
+    color: rgb(100, 200, 255);
+font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 10px;
+}
+.curriculum-container1{
+    box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+width: 367.8px;
+height: 476.78px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-container2{
+    box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+width: 367.8px;
+height: 481.5px;
+}
+.curriculum-container3{
+    box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+width: 367.8px;
+height: 476.78px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-li2{
+    color: rgb(240, 170, 0);
+font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 10px;
+}
+.curriculum-li3{
+    color: rgb(135, 0, 255);
+font-family: Quicksand;
+font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 10px;
+}
+.icons1{
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    background: rgb(254, 163, 1);
+}
+.icons2{
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    background: rgb(254, 163, 1);
+}
+.icons{
+    display: flex;
+ border-radius: 30px;
+ font-size: 24px;
+font-weight: 900;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 80px;
+margin-right:90px;
+border-radius: 30px;
+gap: 20px;
+justify-content: center;
+color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 900;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
 
+#stories-title{
+    color: rgb(0, 0, 0);
+font-size: 46px;
+font-weight: 700;
+line-height: 57.5px;
+letter-spacing: 0%;
+text-align: center;
+margin: 80px 0px;
+gap: 80;
+padding: 60px 0px 60px 0px;
+background-image: url("../assets/bg.png");
+}
+.card1-btn{
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    width: 174.51px;
+    height: 47.93px;
+    border: none;
+    text-align: center;
+   margin-top: -200px;
+    margin-left: 38px;
+}
+.card1-title{
+ color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 700;
+line-height: 38.35px;
+letter-spacing: 0%;
+margin-left: 39px;
+margin-top: 61px;
+width: 402.49px;
+height: 69.98px;
+margin-top: 20px;
+}
+.card1-description{
+    color: rgb(102, 102, 102);
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 52px; 
+    margin-left: 39px; 
+    width: 433.06px;
+margin-top:28px ;
+}
+.card1-img{
+    border-radius: 16px 16px 0px 0px;
+    width: 540px;
+    height: 337px;
+}
+.card1{
+    background: white;
+    width:540px;
+    height: 630px;
+    border-radius: 16px;
+    margin-left: 140px;
+}
+.card{
+    display: flex;
+    gap: 19px;
+    background: url("../assets/bg.png"), url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    height: 850px;
+    margin-top:20px ;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 16px;
+    width: 290.69px;
+    height: 301.61px;
+gap: 19px;
+margin-left: 200px;
+}
+.cardcontainer{
+    position: relative;
+width: 290.69px;
+height: 301.61px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px
+}
+.card-title1{
+ color: rgb(0, 0, 0);
+font-size: 15.34px;
+font-weight: 700;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+width: 198.04px;
+height: 47.93px;
+left: 0;
+top: 4.79px;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 38px;
+}
+.card-img1{
+    border-radius: 16px 16px 0px 0px;
+    width: 291px;
+    height: 177px;
+}
+.card-btn1{
+    color: rgb(255, 255, 255);
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+border-radius: 47.93px;
+width: 174.51px;
+height: 38.35px;
+left: 38.35px;
+top: 157.81px;
+background: rgb(149, 178, 38);
+border: none;
+text-align: center;
+margin-left: 33px;
+margin-top: -100px;
+}
+.card-btn2{
+    color: rgb(255, 255, 255);
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+border-radius: 47.93px;
+width: 174.51px;
+height: 38.35px;
+left: 38.35px;
+top: 157.81px;
+background: rgb(93, 88, 240);
+border: none;
+margin-left: 38px;
+margin-top:-100px;
+text-align: center;
+}
+.view-all{
+    color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 12px;
+background: rgb(17, 17, 17);
+margin: 80px 0px;
+gap: 10;
+padding: 10px;
+width: 197px;
+height: 50px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+margin-left: -350px;
+}
+.footer-container{
+    display: flex;
+    background-color: rgb(1, 172, 253) ;
+height: 519px;
+left: 1px;
+top: 2572px;
+}
+.li{
+list-style: none;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 300px;
+}
+.footer-description{
+    color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+width: 399.02px;
+height: 100px;
+left: 148px;
+top: 2812px;
+margin-left: 147px;
+}
+.footer-img{
+    margin-top: 135px;
+    margin-left: 140px;
+    width: 82.9px;
+height: 81.65px;
+left: 141px;
+right: 75.81px;
+top: 2695px;
+bottom: -2695px;
+/* background: rgb(255, 255, 255); */
+}
+.footer-title{
+    color: rgb(255, 255, 255);
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+    text-align: left; 
+    margin-left: -233px;
+    margin-top: 124px;
+    width: 206.11px;
+height: 80px;
+left: 234.6px;
+top: 2696.32px;
+}
+.li-title{
+    margin-top: 123px;
+
+}
+ .touch-title{
+    color: rgb(255, 255, 255);
+font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 126px;
+ }
+ .touch{
+    margin-left: 378px;
+ }
