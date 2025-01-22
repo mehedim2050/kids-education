@@ -1,7 +1,11 @@
 
   
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
- 
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+ }
 .quicksand-font {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -62,7 +66,7 @@ justify-content: center;
 align-items: center;
 border-radius: 12px;
 }
-#img{
+.img{
     margin-right: 140px;
 }
 .curriculum-title1{
@@ -612,6 +616,7 @@ margin-top: 16px;
     }
     .hamburger {
       display: flex;
+      margin-right: 40px;
     }
     .logo span{
       display: none;
@@ -630,24 +635,49 @@ margin-top: 16px;
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       gap: 20px;
+      justify-content: center;
     }
   }
   @media (max-width:576px) {
     .banner{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
+      margin-left: -50px;
     }
-    #img{
+    .banner-btn{
+      margin-left: 90px;
+      margin-top: -600px;
+    }
+    .img6{
+      margin-top: -1200px;
       max-width: 90%;
+    }
+    .img{
+      max-width: 90%;
+      margin-left: 100px;
+    }
+    .banner-description{
+     margin-left: 20px;
+     margin-left: -20px;
+    }
+    .banner-title{
+      font-size: 40px;
+      padding: 100px;
+      margin-top: 400px;
+    }
+    #png{
+      margin-left: 10px;
     }
   }
   @media (max-width:576px) {
     .card{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
+      margin-left: -55px;
     }
     .card1-img, .card0-btn, .card1-title, .card1-description, .card1{
       display: none;
+      
     }
     .navigation{
       display: none;
@@ -657,19 +687,28 @@ margin-top: 16px;
     .footer-container{
       flex-direction: column;
     }
-    .li, .footer-title, .touch {
-      margin-bottom: 20px;
-    }
     .footer{
       background-color:rgb(1, 172, 253) ;
       flex-direction: column;
       align-items: center;
       padding-top: 20px;
-      min-height: 100vh;
-     
+      min-height: 120vh;
+     min-width: 243vh;
     }
     marquee{
       display: none;
+    }
+    .li, .touch, .footer-description{
+      margin-left: 80px;
+      margin-bottom:-80px;
+    }
+    .footer-title{
+      margin-left:200px;
+      margin-top: -220px;
+    }
+    .footer-img{
+      margin-left: 80px;
+      margin-bottom: 100px;
     }
  }
  @media (max-width:576px) {
@@ -678,5 +717,9 @@ margin-top: 16px;
     justify-content: center;
    align-items: center;
    text-align: center;
+   margin-right: -40px;
+  }
+  .view-all{
+    margin-left: -100px;
   }
  }
