@@ -1,103 +1,19 @@
 
+  
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
-
+ 
 .quicksand-font {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
-  
-.navbar{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    margin-left: 141px;
-}
-.navbar-img{
-width: 17.04px;
-height: 9.39px;
-top: 37.58px; 
-}
-.navbar-title{
-    color: rgb(17, 17, 17);
-font-size: 32px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-margin-top: 17px;
-margin-left: -330px;
-
-}
-.navbar-li{
-    display: flex;
-    margin-top: 16px;
-}
-.navbar-home{
-    color: rgb(254, 163, 1);
-font-size: 20px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-margin: 0px 32px;
-}
-.navbar-about{
-    color: rgb(1, 172, 253);
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-margin: 0px 32px;
-}
-.navbar-facilities{
-    color: rgb(5, 212, 223);
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-margin: 0px 32px;
-}
-.navbar-admission{
-    color: rgb(93, 88, 239);
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-margin: 0px 32px;
-}
-.navbar-btn{
-    color: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: 600;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-border-radius: 12px;
-background: rgb(254, 163, 1);
-margin: 0px 186px;
-position: static;
-width: 197px;
-height: 50px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 10;
-padding: 10px;
-border: none;
-margin-top: 6px;
-}
-@media screen and (max-width:576px) {
-    .banner{
-        flex-direction: column;
-    }
-}
+  body {
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden; 
+    width: 100%;
+  } 
 .banner{
     display: flex;
     justify-content: space-between;
@@ -133,7 +49,6 @@ gap: 24;
 }
 .banner-btn{
     color: rgb(255, 255, 255);
-    font-family: Quicksand;
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
@@ -249,39 +164,26 @@ letter-spacing: 0%;
 text-align: center;
 margin-top: 10px;
 }
-.icons1{
-    border-radius: 30px;
-    width: 60px;
-    height: 60px;
-    background: rgb(254, 163, 1);
-}
-.icons2{
-    border-radius: 30px;
-    width: 60px;
-    height: 60px;
-    background: rgb(254, 163, 1);
-}
-.icons{
+.navigation {
     display: flex;
- border-radius: 30px;
- font-size: 24px;
-font-weight: 900;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 80px;
-margin-right:90px;
-border-radius: 30px;
-gap: 20px;
-justify-content: center;
-color: rgb(255, 255, 255);
-font-size: 24px;
-font-weight: 900;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-}
-
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 90px;
+  }
+  .nav-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 #stories-title{
     color: rgb(0, 0, 0);
 font-size: 46px;
@@ -294,18 +196,36 @@ gap: 80;
 padding: 60px 0px 60px 0px;
 background-image: url("../assets/bg.png");
 }
-.card1-btn{
+.card{
+    display: flex;
+    gap: 19px;
+    background: url("../assets/bg.png"), url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    height: 850px;
+    margin-top:20px ;
+    width: 1886px;
+
+}
+.card0-btn{
+
     color: rgb(255, 255, 255);
     font-size: 15.34px;
     font-weight: 500;
-    border-radius: 47.93px;
+    border-radius: 47px;
     background: rgb(60, 216, 232);
     width: 174.51px;
     height: 47.93px;
     border: none;
-    text-align: center;
-   margin-top: -200px;
+     margin-top: -50px;
     margin-left: 38px;
+     align-items: center;
+    justify-items: center;
+    text-align: center;
+     padding: 3px 15px;
+     position: relative;
+     bottom: 15px;
+}
+#btn{
+    padding-top: 50px;
 }
 .card1-title{
  color: rgb(0, 0, 0);
@@ -329,7 +249,7 @@ margin-top: 20px;
     margin-top: 52px; 
     margin-left: 39px; 
     width: 433.06px;
-margin-top:28px ;
+    margin-top:28px ;
 }
 .card1-img{
     border-radius: 16px 16px 0px 0px;
@@ -343,13 +263,6 @@ margin-top:28px ;
     border-radius: 16px;
     margin-left: 140px;
 }
-.card{
-    display: flex;
-    gap: 19px;
-    background: url("../assets/bg.png"), url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-    height: 850px;
-    margin-top:20px ;
-}
 .card-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -357,7 +270,7 @@ margin-top:28px ;
     width: 290.69px;
     height: 301.61px;
 gap: 19px;
-margin-left: 200px;
+margin-left: 50px;
 }
 .cardcontainer{
     position: relative;
@@ -381,13 +294,31 @@ display: flex;
 flex-direction: row;
 align-items: center;
 margin-left: 38px;
+margin-top: 40px;
+}
+.card-title2{
+    color: rgb(0, 0, 0);
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 198.04px;
+    height: 47.93px;
+    left: 0;
+    top: 4.79px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 38px;
+    margin-top: 10px;  
 }
 .card-img1{
     border-radius: 16px 16px 0px 0px;
     width: 291px;
     height: 177px;
 }
-.card-btn1{
+.card-btn3{
     color: rgb(255, 255, 255);
 font-size: 15.34px;
 font-weight: 500;
@@ -403,8 +334,35 @@ top: 157.81px;
 background: rgb(149, 178, 38);
 border: none;
 text-align: center;
-margin-left: 33px;
-margin-top: -100px;
+margin-left: 15px;
+margin-top: -1px;
+padding-top: 19px;
+padding: 3px 15px;
+     position: absolute;
+     bottom: 15px;
+}
+.card-btn1{
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    width: 174.51px;
+    height: 38.35px;
+    left: 38.35px;
+    top: 157.81px;
+    background: rgb(149, 178, 38);
+    border: none;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: -1px;
+    padding-top: 19px;
+    padding: 3px 15px;
+         position: absolute;
+         bottom: 15px; 
 }
 .card-btn2{
     color: rgb(255, 255, 255);
@@ -417,13 +375,17 @@ text-transform: capitalize;
 border-radius: 47.93px;
 width: 174.51px;
 height: 38.35px;
-left: 38.35px;
-top: 157.81px;
 background: rgb(93, 88, 240);
 border: none;
-margin-left: 38px;
+margin-left: 40px;
 margin-top:-100px;
 text-align: center;
+padding-top: 19px;
+justify-content: center;
+align-items: center;
+padding: 3px 15px;
+     position: relative;
+     bottom: 15px;
 }
 .view-all{
     color: rgb(255, 255, 255);
@@ -452,6 +414,7 @@ margin-left: -350px;
 height: 519px;
 left: 1px;
 top: 2572px;
+width: 1886px;
 }
 .li{
 list-style: none;
@@ -485,7 +448,6 @@ left: 141px;
 right: 75.81px;
 top: 2695px;
 bottom: -2695px;
-/* background: rgb(255, 255, 255); */
 }
 .footer-title{
     color: rgb(255, 255, 255);
@@ -516,4 +478,205 @@ margin-top: 126px;
  }
  .touch{
     margin-left: 378px;
+ }
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid orange;
+    width: 100%;
+  }
+  #school{
+    color: rgb(17, 17, 17);
+font-size: 32px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 74px;
+margin-top: 17px;
+  }
+  #png{
+    margin-left: 141px;
+    margin-top: 15px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+  }
+  .contact-btn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    margin: 0px 186px;
+    position: static;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    margin-top:16px ;
+    margin-right: 180px;
+  }
+  .admission{
+    color: rgb(93, 88, 239);
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-top:16px;
+gap: 32;
+padding: 0px
+  }
+  .facilities{
+    color: rgb(5, 212, 223);
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+gap: 32;
+margin-top: 16px;
+  }
+  .about{
+    color: rgb(1, 172, 253);
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+gap: 32;
+margin-top: 16px;
+
+  }
+  .home{
+    color: rgb(254, 163, 1);
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+gap: 32;
+margin-top: 16px;
+  }
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 5px;
+  }
+  @media (max-width: 576px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .hamburger {
+      display: flex;
+    }
+    .logo span{
+      display: none;
+    }
+  }
+  @media (min-width: 769px) {
+    .navbar {
+      border-bottom: none; 
+    }
+    .navbar::after {
+      display: none;
+    }
+  }
+  @media (max-width:576px) {
+    .curriculum{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
+  }
+  @media (max-width:576px) {
+    .banner{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    #img{
+      max-width: 90%;
+    }
+  }
+  @media (max-width:576px) {
+    .card{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .card1-img, .card0-btn, .card1-title, .card1-description, .card1{
+      display: none;
+    }
+    .navigation{
+      display: none;
+    }
+  }
+ @media screen and (max-width:576px) {
+    .footer-container{
+      flex-direction: column;
+    }
+    .li, .footer-title, .touch {
+      margin-bottom: 20px;
+    }
+    .footer{
+      background-color:rgb(1, 172, 253) ;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+      min-height: 100vh;
+     
+    }
+    marquee{
+      display: none;
+    }
+ }
+ @media (max-width:576px) {
+  .curriculum-title1{
+    font-size: 20px;
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
  }
