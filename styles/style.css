@@ -189,6 +189,9 @@ margin-top: 10px;
     justify-content: center;
     align-items: center;
   }
+  .nav-btn:hover {
+    background-color: #00ff4c;
+  }
 #stories-title{
     color: rgb(0, 0, 0);
 font-size: 46px;
