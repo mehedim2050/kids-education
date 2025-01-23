@@ -38,7 +38,7 @@ margin: 24px 0px;
     color: rgb(1, 172, 253);
 }
 .banner-container{
-    margin-top: 122px;
+    margin-top: 250px;
     margin-left: 141px;
 }
 .banner-description{
@@ -66,8 +66,9 @@ justify-content: center;
 align-items: center;
 border-radius: 12px;
 }
-.img{
+.img6{
     margin-right: 140px;
+    margin-top:130px ;
 }
 .curriculum-title1{
     color: rgb(0, 0, 0);
@@ -647,15 +648,15 @@ margin-top: 16px;
     }
     .banner-btn{
       margin-left: 90px;
-      margin-top: -600px;
+      /* margin-top: -600px; */
     }
     .img6{
-      margin-top: -1050px;
+      margin-top: -1100px;
       max-width: 90%;
     }
     .img{
       max-width: 90%;
-      margin-left: 90px;
+      margin-left: 120px;
     }
     .banner-description{
      margin-left: -20px;
@@ -663,7 +664,7 @@ margin-top: 16px;
     .banner-title{
       font-size: 30px;
       padding: 100px;
-      margin-top: 400px;
+      margin-top: 300px;
     }
     #png{
       margin-left: 10px;
@@ -718,6 +719,7 @@ margin-top: 16px;
    align-items: center;
    text-align: center;
    margin-right: -40px;
+   margin-bottom: -200px;
   }
   .view-all{
     margin-left: -100px;
